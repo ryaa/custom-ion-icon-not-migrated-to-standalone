@@ -16,6 +16,7 @@ NOTE: after the migration complete the app will not build. If `home.page.ts` is 
 ```
 Module '"ionicons/icons"' has no exported member 'customFingerPrint'.
 ```
+Please also note that `HomePage` compoment is not standalone anymore and the `@Component` decorator is missing the `standalone: true` property. The `HomePageModule` is still present in the `home.module.ts` file.
 
 # Ionic Info output
 
