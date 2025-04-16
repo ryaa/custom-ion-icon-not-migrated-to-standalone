@@ -1,5 +1,5 @@
 # Custom ion-icon not migrated to standalone
-This is a repo to reproduce the problem for the issue
+This is a repo to reproduce the problem for the issue https://github.com/ionic-team/ionic-angular-standalone-codemods/issues/52
 
 # To install please:
 
