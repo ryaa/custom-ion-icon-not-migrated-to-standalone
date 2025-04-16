@@ -12,7 +12,10 @@ NOTE: the app is a simple Ionic app with a single page and a custom icon display
 # To reproduce the problem:
 
 - execute migration according to the [migration instructions](https://github.com/ionic-team/ionic-angular-standalone-codemods?tab=readme-ov-file#usage)
-
+NOTE: after the migration complete the app will not build. If `home.page.ts` is opened in IDE, the below typescript error will be displayed:
+```
+Module '"ionicons/icons"' has no exported member 'customFingerPrint'.
+```
 
 # Ionic Info output
 
